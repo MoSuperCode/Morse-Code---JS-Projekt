@@ -1,0 +1,19 @@
+    let inputElement = document.getElementById("inputElement").value;
+    let inputUpperCase = inputElement.toUpperCase();
+    let outputElement = document.getElementById("outputElement");
+    let outputArray = [];
+    let outputValue = '';
+    console.log(inputUpperCase);
+    tu8;
+    morseAlphabet.forEach((morseLetter) => {
+
+        for (let upperLetter of inputUpperCase) {
+            if (morseLetter === upperLetter) {
+
+                outputArray.push(morseLetter);
+                console.log(morseLetter);
+            }
+        }
+    });
+    console.log(outputArray);
+    outputElement.innerHTML = outputArray;
